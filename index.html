@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <title>Dispensadora</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1 class="text-center bg-success-subtle" >Máquina Dispensadora</h1>
+
+        <div class="container">
+            <div class="row text-center">
+              <div class="col-md">
+                <div class="card shadow">
+                    <img src="images/papamargarita.webp" class="card-img-top" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Papa Margarita</h5>
+                      <p class="card-text" id="abastecerPapa"> Disponibles: 0 </p>
+                      <p class="card-text"> Precio: $1.700 </p>
+                      <button type="button" class="btn btn-dark shadow" onclick="comprarPapa()">Comprar</button>
+                      <button type="button" class="btn btn-secondary shadow"  onclick="abastecerPapa()">Abastecer</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md">
+                <div class="card shadow">
+                    <img src="images/jugohit.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Jugo Hit</h5>
+                      <p class="card-text" id="abastecerHit"> Disponibles: 0 </p>
+                      <p class="card-text"> Precio: $2.400 </p>
+                      <button type="button" class="btn btn-dark shadow" onclick="comprarHit()">Comprar</button>
+                      <button type="button" class="btn btn-secondary shadow" id="abastecerHit" onclick="abastecerHit()">Abastecer</button>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-md">
+                <div class="card shadow">
+                    <img src="images/chocolatinajet.webp" class="card-img-top" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Chocolatina Jet</h5>
+                      <p class="card-text" id="abastecerJet"> Disponibles: 0 </p>
+                      <p class="card-text"> Precio: $700 </p>
+                      <button type="button" class="btn btn-dark shadow" onclick="comprarJet()">Comprar</button>
+                      <button type="button" class="btn btn-secondary shadow"  onclick="abastecerJet()">Abastecer</button>
+                    </div>
+                  </div>  
+            </div>
+
+            <div class="col-md">
+                <div class="card shadow">
+                    <img src="images/galletafestival.jfif" class="card-img-top" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Galleta Festival</h5>
+                      <p class="card-text" id="abastecerGalleta"> Disponibles: 0 </p>
+                      <p class="card-text"> Precio: $1.000 </p>
+                      <button type="button" class="btn btn-dark shadow" onclick="comprarGalleta()">Comprar</button>
+                      <button type="button" class="btn btn-secondary shadow" id="abastecerGalleta" onclick="abastecerGalleta()">Abastecer</button>
+                    </div>
+                  </div>           
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="col-12 mt-4 text-center">
+      <button type="button" class="btn btn-danger justify-content-center shadow" onclick="cantidad_ventas()">Cantidad de ventas</button>
+      <button type="button" class="btn btn-warning justify-content-center shadow" onclick="total_ventas()" >Valor total de ventas</button>
+      <button type="button" class="btn btn-success justify-content-center shadow" onclick="unidades_vendidas()">Unidades vendidas</button>
+    </div>
+
+
+
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/funciones.js"></script>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/funciones2.js"></script>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/funciones3.js"></script>
+
+
+</body>
+</html>
